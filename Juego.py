@@ -3,6 +3,15 @@ import numpy as np
 import time
 
 """class Pantalla:
+    #Ancho y Alto de la pantalla.
+    WIDTH, HEIGHT = 800, 800
+    nX, nY = 80, 80
+    xSize = WIDTH/nX
+    ySize = HEIGHT/nY
+    #Color de fondo y de celdas
+    BG_COLOR = (10,10,10)
+    LIVE_COLOR = (255,255,255)
+    DEAD_COLOR = (128,128,128)
     def avanzar():
         avanzar
     def pausar():
@@ -12,7 +21,9 @@ import time
     def cambiarEstado():
         
 class Celda:
-    estado = np.zeros((nX,nY))
+    #Inicializar estado de las celdas
+    #Estado de las Celdas: Celdas vivas = 1; Celdas muertas = 0
+    status = np.zeros((nX,nY))
     
     def revisarEstado():"""
         
