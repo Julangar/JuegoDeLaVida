@@ -2,6 +2,21 @@ import pygame
 import numpy as np
 import time
 
+"""class Pantalla:
+    def avanzar():
+        avanzar
+    def pausar():
+        pausar
+    def limpiar():
+        limpiar
+    def cambiarEstado():
+        
+class Celda:
+    estado = np.zeros((nX,nY))
+    
+    def revisarEstado():"""
+        
+
 #Ancho y Alto de la pantalla.
 WIDTH, HEIGHT = 800, 800
 nX, nY = 80, 80
